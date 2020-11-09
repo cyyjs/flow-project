@@ -1,0 +1,17 @@
+{
+  "name": "flow-project",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "cyyjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-flow": "^7.12.1",
+    "flow-bin": "^0.137.0"
+  }
+}
